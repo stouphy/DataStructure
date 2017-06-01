@@ -3,3 +3,6 @@
 ################################################################################
 
 /DriectNandFlash
+/NandFlashRW_Emu
+/YAFFSEmu
+/YAFFS2_Emulator

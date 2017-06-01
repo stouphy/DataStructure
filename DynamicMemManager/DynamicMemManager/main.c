@@ -15,10 +15,10 @@ int main(int args, const char* argv[])
 	p2 = AllocBoundTag(&pav, 4);
 	print_space(pav);
 
-	//FreeBoundTag(&pav, p1);
-	//print_space(pav);
-	//FreeBoundTag(&pav, p2);
-	//print_space(pav);
+	FreeBoundTag(&pav, p1);
+	print_space(pav);
+	FreeBoundTag(&pav, p2);
+	print_space(pav);
 	if (freeSpace)
 	{
 		free(freeSpace);
